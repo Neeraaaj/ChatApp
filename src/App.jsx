@@ -25,13 +25,7 @@ function App() {
     next();
   });
   
-  // Your other route handling code goes here
-  
-  const port = process.env.PORT || 3000;
-  app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-  });
-
+ 
   return (
     <Router>
       <AuthProvider>
