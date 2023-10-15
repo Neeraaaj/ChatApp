@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import PrivateRoutes from './components/PrivateRoutes'
 import { AuthProvider } from './utils/AuthContext'
 import RegisterPage from './pages/RegisterPage'
-import express from 'express';
 
 function App() {
   return (
